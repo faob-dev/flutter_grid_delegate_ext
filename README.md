@@ -2,7 +2,7 @@
 
 Simple SliverGridDelegate extension, can easily change big cell and small cell heigth.
 
-## Installation
+### Installation
 
 Add dependency in `pubspec.yaml`:
 ```yaml
@@ -15,7 +15,7 @@ Import in your project:
 import 'package:flutter_grid_delegate_ext/main.dart';
 ```
 
-## Basic usage
+### Basic usage
 
 #### Unequal cells height with first cell small
 ```
@@ -62,10 +62,10 @@ GridView.builder(
 ```
 <img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout3.jpg" width="200" height="355">
 
-## Examples
+### Examples
 
 [example](https://github.com/faob-dev/flutter_grid_delegate_ext/tree/master/example) project contains demo
 
 
-## Bugs/Requests
+### Bugs/Requests
 Reporting issues and requests for new features are always welcome.
