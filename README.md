@@ -17,21 +17,6 @@ import 'package:flutter_grid_delegate_ext/main.dart';
 
 ## Basic usage
 
-#### Unequal cells height with first cell big
-```
-GridView.builder(
-    gridDelegate: XSliverGridDelegate(
-        crossAxisCount: 3,
-        smallCellExtent: 100,
-        bigCellExtent: 200,
-        mainAxisSpacing: 5,
-        crossAxisSpacing: 5,
-        isFirstCellBig: true
-    )
-)
-```
-<img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout1.jpg" width="200" height="355">
-
 #### Unequal cells height with first cell small
 ```
 GridView.builder(
@@ -45,6 +30,22 @@ GridView.builder(
     )
 )
 ```
+<img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout1.jpg" width="200" height="355">
+
+#### Unequal cells height with first cell big
+```
+GridView.builder(
+    gridDelegate: XSliverGridDelegate(
+        crossAxisCount: 3,
+        smallCellExtent: 100,
+        bigCellExtent: 200,
+        mainAxisSpacing: 5,
+        crossAxisSpacing: 5,
+        isFirstCellBig: true
+    )
+)
+```
+
 <img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout2.jpg" width="200" height="355">
 
 #### Equal cells height
