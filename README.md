@@ -2,17 +2,19 @@
 
 Simple SliverGridDelegate extension, Height of big cell and small cell can be adjusted, `BigCellHeight >= SmallCellHeight`.
 
+[![pub package](https://img.shields.io/pub/v/flutter_grid_delegate_ext.svg)](https://pub.dartlang.org/packages/flutter_grid_delegate_ext)
+
 ### Installation
 
 Add dependency in `pubspec.yaml`:
 ```yaml
 dependencies:
-  flutter_grid_delegate_ext: "^0.0.1"
+  flutter_grid_delegate_ext: "^0.0.2"
 ```
 
 Import in your project:
 ```dart
-import 'package:flutter_grid_delegate_ext/main.dart';
+import 'package:flutter_grid_delegate_ext/flutter_grid_delegate_ext.dart';
 ```
 
 ### Basic usage

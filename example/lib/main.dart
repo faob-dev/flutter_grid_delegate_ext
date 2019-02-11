@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_delegate_ext/main.dart';
+import 'package:flutter_grid_delegate_ext/flutter_grid_delegate_ext.dart';
 
 void main() => runApp(MaterialApp(home: MyApp()));
 
