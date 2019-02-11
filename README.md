@@ -1,0 +1,67 @@
+# Simple FoldingCell widget
+
+Simple folding cell widget implemented in Flutter. Its a widget so add it to any container widget as a child.
+
+## Installation
+
+Add dependency in `pubspec.yaml`:
+```yaml
+dependencies:
+  flutter_grid_delegate_ext: "^0.0.1"
+```
+
+Import in your project:
+```dart
+import 'package:flutter_grid_delegate_ext/main.dart';
+```
+
+## Basic usage
+
+#### Unequal cells height with first cell big
+```
+GridView.builder(
+    gridDelegate: XSliverGridDelegate(
+        crossAxisCount: 3,
+        smallCellExtent: 100,
+        bigCellExtent: 200,
+        mainAxisSpacing: 5,
+        crossAxisSpacing: 5,
+        isFirstCellBig: true
+    )
+)
+```
+
+#### Unequal cells height with first cell small
+```
+GridView.builder(
+    gridDelegate: XSliverGridDelegate(
+        crossAxisCount: 3,
+        smallCellExtent: 100,
+        bigCellExtent: 200,
+        mainAxisSpacing: 5,
+        crossAxisSpacing: 5,
+        isFirstCellBig: false
+    )
+)
+```
+
+#### Equal cells height
+```
+GridView.builder(
+    gridDelegate: XSliverGridDelegate(
+        crossAxisCount: 3,
+        smallCellExtent: 200,
+        bigCellExtent: 200,
+        mainAxisSpacing: 5,
+        crossAxisSpacing: 5,
+    )
+)
+```
+
+## Examples
+
+[example](https://github.com/faob-dev/flutter_grid_delegate_ext/tree/master/example) project contains demo
+
+
+## Bugs/Requests
+Reporting issues and requests for new features are always welcome.
