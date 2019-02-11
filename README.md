@@ -1,6 +1,6 @@
 ## Simple SliverGridDelegate extension
 
-Simple SliverGridDelegate extension, can easily change big cell and small cell heigth.
+Simple SliverGridDelegate extension, Height of big cell and small cell can be adjusted, `BigCellHeight >= SmallCellHeight`.
 
 ### Installation
 
