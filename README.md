@@ -30,6 +30,7 @@ GridView.builder(
     )
 )
 ```
+<img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout1.jpg" width="200" height="355">
 
 #### Unequal cells height with first cell small
 ```
@@ -44,6 +45,7 @@ GridView.builder(
     )
 )
 ```
+<img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout2.jpg" width="200" height="355">
 
 #### Equal cells height
 ```
@@ -57,6 +59,7 @@ GridView.builder(
     )
 )
 ```
+<img src="https://raw.githubusercontent.com/faob-dev/flutter_grid_delegate_ext/master/screenshots/layout3.jpg" width="200" height="355">
 
 ## Examples
 
